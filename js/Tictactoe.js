@@ -1,7 +1,7 @@
 function drawBoard() {
     var cells = ['', '', '', '', '', '', '', '', ''];
     var table = document.getElementById("game");
-    // var  = 1;
+    indicator = 1;
     var i;
     var x;
 
@@ -14,6 +14,8 @@ function drawBoard() {
             row.appendChild(col);
         }
         table.appendChild(row);
+        // col.indicator=indicator;
+        // col.onclick=set;
 
 
     }
@@ -25,10 +27,10 @@ function refresh() {
 }
 
 function Play() {
-
+    var cells = ['', '', '', '', '', '', '', '', ''];
     var i;
-    var = playerone;
-    var = playertwo;
-    var = turn;
+    var playerone;
+    var playertwo;
+    var turn;
     for ()
 }
